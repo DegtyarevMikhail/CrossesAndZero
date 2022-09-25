@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KrestikiNoliki"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/menuBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700">
+        <ImageView
+            android:id="@+id/on_back_pressed"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/arrow_circle_left_24"/>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/reset"/>
+
+
+
+    <!-- this is a comment-->
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_below="@+id/menuBar"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vinsent_vega"
+        />
+
+
+</RelativeLayout>

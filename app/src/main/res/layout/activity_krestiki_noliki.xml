@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KrestikiNoliki"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/menuBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700">
+        <ImageView
+            android:id="@+id/on_back_pressed"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/arrow_circle_left_24"/>
+
+        <ImageView
+            android:id="@+id/settings_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/settings_icon"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="150dp"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/pcPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="100dp"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/_00"/>
+
+    <!-- this is a comment-->
+
+      <pl.droidsonroids.gif.GifImageView
+          android:layout_below="@+id/menuBar"
+          android:layout_marginTop="5dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/vinsent_vega"
+          />
+
+
+    <TextView
+        android:id="@+id/humanPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="250dp"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/_00_human"/>
+
+
+
+
+    <TableLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/button_1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:textSize="40sp"/>
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/button_2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:textSize="40sp"/>
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/button_3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:textSize="40sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/button_4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:textSize="40sp"/>
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/button_5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:textSize="40sp"/>
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/button_6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:textSize="40sp"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/button_7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:textSize="40sp"/>
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/button_8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:textSize="40sp"/>
+
+            <Button
+                android:id="@+id/button_9"
+                android:layout_margin="5dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:textSize="40sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/restart"
+        android:text="@string/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textSize="40sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

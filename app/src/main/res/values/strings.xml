@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CrossesAndZero</string>
+    <string name="test">Test</string>
+    <string name="restart">new game</string>
+    <string name="game">game</string>
+    <string name="draw">Ничья</string>
+    <string name="_00">00</string>
+    <string name="_00_human">00</string>
+    <string name="reset">Reset</string>
+    <string name="toast_reset">Счёт сброшен</string>
+</resources>
